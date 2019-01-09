@@ -17,6 +17,7 @@ new Vue({
         submission => submission.id === submissionId
       );
       submission.votes += 1;
+      console.log('--->>', this.submissions);
     }
   }
 });
